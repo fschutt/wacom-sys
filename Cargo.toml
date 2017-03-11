@@ -2,10 +2,15 @@
 name = "wacom-sys"
 version = "0.1.0"
 authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
+
+description = "Bindgen-generated Rust bindings for libwacom 0.18.1"
+documentation = "https://docs.rs/wacom-sys"
+repository = "https://github.com/sharazam/wacom-sys"
+keywords = ["wacom", "tablet", "driver", "graphics"]
+categories = ["hardware-support"]
+license = "GPL-3.0"
+
+links = "wacom"
 build = "build.rs"
 
-[build-dependencies]
-bindgen = "0.22.1"
-
 [dependencies]
-
