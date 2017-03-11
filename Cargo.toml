@@ -1,0 +1,11 @@
+[package]
+name = "wacom-sys"
+version = "0.1.0"
+authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.22.1"
+
+[dependencies]
+
